@@ -1,0 +1,48 @@
+.mainPageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15em;
+}
+.picturesContainer {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.singlePicture {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+.singlePictureWithMany {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 1em;
+}
+.sendButton {
+  margin-top: 1em;
+  font-size: 15px;
+  line-height: 1.5;
+  color: white;
+  text-transform: uppercase;
+  width: 15.5em;
+  height: 3em;
+  border-radius: 5px;
+  background: rgb(0, 0, 0, 0.7);
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: background 0.3s ease 0s;
+}
+.sendButton:hover {
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.picturesContainer p {
+  font-weight: 520;
+  font-size: 16px;
+  color: white;
+}
